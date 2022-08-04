@@ -1,0 +1,62 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="itext7" Version="7.2.1" />
+    <PackageReference Include="Ninject" Version="3.3.5" />
+    <PackageReference Include="Spring.Core" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Spell Schools\abjuration.png" />
+    <Resource Include="Resources\Spell Schools\conjuration.png" />
+    <Resource Include="Resources\Spell Schools\default.png" />
+    <Resource Include="Resources\Spell Schools\divination.png" />
+    <Resource Include="Resources\Spell Schools\enchantment.png" />
+    <Resource Include="Resources\Spell Schools\evocation.png" />
+    <Resource Include="Resources\Spell Schools\illusion.png" />
+    <Resource Include="Resources\Spell Schools\necromancy.png" />
+    <Resource Include="Resources\Spell Schools\transmutation.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\Data\Spells\spells.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Data\Spells\spells2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Spell Schools\abjuration.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Spell Schools\conjuration.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Spell Schools\default.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Spell Schools\divination.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Spell Schools\enchantment.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Spell Schools\evocation.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Spell Schools\illusion.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Spell Schools\necromancy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Spell Schools\transmutation.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
